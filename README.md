@@ -1,6 +1,6 @@
 > 欢迎任何人参与和完善：一个人可以走的很快，但是一群人却可以走的更远
 
-英文官网: https://leetcode.com
+英文官网: https://leetcode.com  
 中文官网: https://leetcode-cn.com
 
 ### 关于刷题
