@@ -32,6 +32,7 @@ public class e111_二叉树的最小深度 {
         TreeNode l9 = new TreeNode(9, null, null);
         TreeNode r20 = new TreeNode(20, l15, r7);
         TreeNode root = new TreeNode(3, l9, r20);
+        System.out.println(minDepth(root));
         System.out.println(minDepth1(root));
     }
 
@@ -42,6 +43,8 @@ public class e111_二叉树的最小深度 {
      *      对于每一个非叶子节点，我们只需要分别计算其左右子树的最小叶子节点深度。这样就将一个大问题转化为了小问题，可以递归地解决该问题。
      *
      *  理解：遍历二叉树，针对每一个非叶子节点，都计算其左右子节点的深度，递归调用！需要做好边界值判定：左右子节点为空了，或者当前节点为空了
+     *
+     *  ps::::  前中后序遍历
      *
      * @param root
      * @return
