@@ -31,6 +31,16 @@ public class 剑指Offer10_II_青蛙跳1或2到n级台阶 {
         return a;
     }
 
+    /**
+     * 跳N阶台阶
+     *
+     *      一般思路：递归、滚动数组
+     *      递归：台阶n不大是，很适合使用递归跳n阶台阶，但是n过大时，递归过深将导致栈溢出
+     *      滚动数组：当台阶n比较大时，可以使用滚动数组，也就是通过两个变量一直记录之前两次的值，不同滚动到n（也是一种阶乘思想）
+     *
+     * @param n
+     * @return
+     */
     public static int getSteps(int n) {
         int a = 1;
         int b = 1;
