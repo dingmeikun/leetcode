@@ -7,8 +7,10 @@ public class m29_两数相除 {
      * @param args
      */
     public static void main(String[] args) {
-        int divide = divide(-2147483648, -1);
-        System.out.println(divide);
+        /*int divide = divide(-2147483648, -1);
+        System.out.println(divide);*/
+
+        System.out.println(1 << 31);
     }
 
     /*public static int divide(int dividend, int divisor)

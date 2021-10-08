@@ -1,4 +1,4 @@
-package com.java.easy;
+package com.java.offer;
 
 /**
  * 青蛙每次只能跳1阶、2阶
